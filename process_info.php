@@ -13,8 +13,10 @@ if($result)
     echo "<a href='add_info.php'>Go Back </a>";
 }
 else
+{
     echo "An Error Occured in the system. Please Contact System Administrator";
-
+	echo "<a href='add_info.php'>Go Back </a>";
+}
 
 
 ?>
